@@ -79,3 +79,4 @@ details p{margin:8px 0 0;color:var(--muted)}
 .card.speaker img{display:block;width:100%;height:auto;aspect-ratio:1/1;object-fit:cover;object-position:top}
 .card.speaker h3{margin:0;padding:16px 16px 4px;color:var(--ink)}
 .card.speaker p{padding:0 16px 16px;color:var(--muted);font-size:14px}
+@media(min-width:761px){.cards.speakers{grid-template-columns:repeat(2,minmax(0,1fr));max-width:680px}}
